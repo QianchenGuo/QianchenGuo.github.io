@@ -153,40 +153,6 @@
     "mathCount": 12
   },
   {
-    "slug": "zhihu-2053540193765003635",
-    "title": "微分流形(五)2.1切丛和切向量场",
-    "date": "2026-07-23",
-    "excerpt": "M上光滑切向量场全体是R上的无穷为维线性空间，但由于R数乘是整体性的，匀强场的线性组合仍为匀强场，非匀强场又要通过各种基叠加，基的个数无穷多个。所以可通过modify进行局部化，提升到光滑函数环上的模。这样维数就和切空间一致。f(x)＝x属于该函数环的理想，有零因子没有逆元。 所以就导致代数结构并不好，但如果对应到相应",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/2053540193765003635",
-    "sourceType": "zhihu-article",
-    "zhihuId": "2053540193765003635",
-    "translationStatus": "source-only",
-    "updated": "2026-07-23T15:40:19.000Z",
-    "imageCount": 23,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-2062357310698266923",
-    "title": "微分流形(？) Riemann几何初步",
-    "date": "2026-07-19",
-    "excerpt": "丛，联络，平移，测地线 LeviCivita联络与Riemann几何基本定理 流与Riemann曲率张量",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/2062357310698266923",
-    "sourceType": "zhihu-article",
-    "zhihuId": "2062357310698266923",
-    "translationStatus": "source-only",
-    "updated": "2026-07-19T18:08:10.000Z",
-    "imageCount": 11,
-    "mathCount": 0
-  },
-  {
     "slug": "zhihu-661225526",
     "title": "泛控制科学学习路径分析",
     "date": "2026-07-06",
@@ -202,40 +168,6 @@
     "updated": "2026-07-06T17:22:57.000Z",
     "imageCount": 2,
     "mathCount": 3
-  },
-  {
-    "slug": "zhihu-2053787794531684731",
-    "title": "微分流形(六) 2.2-2.3 可积性定理、向量丛",
-    "date": "2026-06-26",
-    "excerpt": "知乎原文归档。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/2053787794531684731",
-    "sourceType": "zhihu-article",
-    "zhihuId": "2053787794531684731",
-    "translationStatus": "source-only",
-    "updated": "2026-06-26T02:35:04.000Z",
-    "imageCount": 22,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-2053538156570531715",
-    "title": "微分流形(四)1.8 Lie群初步",
-    "date": "2026-06-25",
-    "excerpt": "继续将多年前的纸质笔记转成电子版上传",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/2053538156570531715",
-    "sourceType": "zhihu-article",
-    "zhihuId": "2053538156570531715",
-    "translationStatus": "source-only",
-    "updated": "2026-06-25T10:02:40.000Z",
-    "imageCount": 12,
-    "mathCount": 0
   },
   {
     "slug": "zhihu-2045916524771291380",
@@ -514,40 +446,6 @@
     "mathCount": 0
   },
   {
-    "slug": "zhihu-721222395",
-    "title": "微分流形(三) §1.6切空间、切映射",
-    "date": "2025-11-24",
-    "excerpt": "上接 微分流形(二)§1.41.5子流形，单位分解7 赞同 · 0 评论 文章 当给出坐标 , 自然的切向量就是 。但这个定义取决于嵌入。想要内蕴的，用沿切向量方向上的导子定义 。自然而然，我们对于微分流形的切向量与切空间定义就有如下三种方法，第一种是曲线的等价类，第二种是定义成光滑函数的导子，第三种是直接将导子的性质",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/721222395",
-    "sourceType": "zhihu-article",
-    "zhihuId": "721222395",
-    "translationStatus": "source-only",
-    "updated": "2025-11-24T10:59:20.000Z",
-    "imageCount": 6,
-    "mathCount": 39
-  },
-  {
-    "slug": "zhihu-720534546",
-    "title": "微分流形(二)§1.4-1.5子流形，单位分解",
-    "date": "2025-10-24",
-    "excerpt": "上接 微分流形(一)§1.11.3流形及其上映射8 赞同 · 0 评论 文章 我们可以通过线性映射受到启发子流形的性态和流形间映射的秩有很大的关系，映射的秩则是一个局部概念，这意味着本节的内容实际上完全可以在Rⁿ上做。换句话说，本节的结果完全可以在数学分析(二)的多元微积分中讲解。有的数学分析也就是这样做的，比如B站6",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/720534546",
-    "sourceType": "zhihu-article",
-    "zhihuId": "720534546",
-    "translationStatus": "source-only",
-    "updated": "2025-10-24T11:09:08.000Z",
-    "imageCount": 16,
-    "mathCount": 0
-  },
-  {
     "slug": "zhihu-713327958",
     "title": "移动机器人规划（三） 基于采样的路径规划",
     "date": "2025-10-08",
@@ -720,23 +618,6 @@
     "mathCount": 0
   },
   {
-    "slug": "zhihu-663142805",
-    "title": "经典控制理论 §1单输入单输出线性定常系统描述",
-    "date": "2025-01-20",
-    "excerpt": "这是自己总觉得一般的自控课本一看就一股工程味，理论上的推导太弱，于是愤而提笔。后面慢慢也就释然了，毕竟按照我自己的计划，尽快要开始线性系统理论和非线性系统理论的学习。 这里面我有几个问题思考(当然可能是边边角角不重要的问题)： 1.系统零初始条件的意义何在？ 2.零初始状态和系统的零输入响应、零状态响应是什么关系？ 3",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/663142805",
-    "sourceType": "zhihu-article",
-    "zhihuId": "663142805",
-    "translationStatus": "source-only",
-    "updated": "2025-01-20T04:21:15.000Z",
-    "imageCount": 19,
-    "mathCount": 0
-  },
-  {
     "slug": "zhihu-answer-70114789467",
     "title": "2024年你的控制理论研究有什么收获和感悟？",
     "date": "2025-01-17",
@@ -789,58 +670,6 @@
     "mathCount": 0
   },
   {
-    "slug": "zhihu-720527446",
-    "title": "微分流形(一)§1.1-1.3流形及其上映射",
-    "date": "2024-12-06",
-    "excerpt": "放笔记，同时写下值得一记的东西。主要参考梅加强《流形与几何初步》 拓扑流形是A2，T2，局部欧的拓扑空间。 流形的概念可以不依赖欧氏空间来定义吗？405 赞同 · 29 评论 回答 当然综合微分几何（SDG）用高度抽象的语言也能定义流形。 利用同调群可以证明不同维的拓扑流形不拓扑同胚。 有限维拓扑流形存在由准紧坐标球构",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/720527446",
-    "sourceType": "zhihu-article",
-    "zhihuId": "720527446",
-    "translationStatus": "source-only",
-    "updated": "2024-12-06T16:07:31.000Z",
-    "imageCount": 12,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-answer-19255847333",
-    "title": "如何理解控制的精髓?",
-    "date": "2024-10-31",
-    "excerpt": "共青城双子星：乱谈数学与控制（续）正本清源145 赞同 · 29 评论 文章 这是我最近发的一篇文章。尽量用自底向上的逻辑去叙述，尝试厘清控制作为数学的一个分支身处的位置，并且说明控制所关注的底层逻辑与本质上的难题。所以称为正本清源，可能稍显啰嗦或者说非主流，因为并不涉及控制顶层的设计问题。不过未来我会在自学几何控制后",
-    "tags": [
-      "知乎归档",
-      "知乎回答"
-    ],
-    "source": "https://www.zhihu.com/question/317138463/answer/19255847333",
-    "sourceType": "zhihu-answer",
-    "zhihuId": "19255847333",
-    "translationStatus": "source-only",
-    "updated": "2024-10-31T03:10:06.000Z",
-    "questionTitle": "如何理解控制的精髓?",
-    "imageCount": 0,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-3623580054",
-    "title": "非线性系统 Ch4.Lyapunov稳定性",
-    "date": "2024-10-28",
-    "excerpt": "Lyapunoc稳定性是控制理论的基石，本文是很久以前学习Khalil《非线性系统》的笔记。 在本书乃至控制理论中本章的内容都起到了统领全文的作用，时常就会用到本章的结果。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/3623580054",
-    "sourceType": "zhihu-article",
-    "zhihuId": "3623580054",
-    "translationStatus": "source-only",
-    "updated": "2024-10-28T08:43:34.000Z",
-    "imageCount": 7,
-    "mathCount": 0
-  },
-  {
     "slug": "zhihu-answer-10781192415",
     "title": "请问极限环的振幅是什么意思？",
     "date": "2024-10-21",
@@ -856,23 +685,6 @@
     "updated": "2024-10-21T03:32:40.000Z",
     "questionTitle": "请问极限环的振幅是什么意思？",
     "imageCount": 0,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1840827046",
-    "title": "Legendre变换整理",
-    "date": "2024-10-18",
-    "excerpt": "三种定义及其间关系。 例子见书，此处省略。 性质有x(p)的唯一性(由f凸性保证)，Legendre变换保凸性，对合性。 对合性写了两种证明，第一种和书上的证明类似，第二种更加严格一些。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1840827046",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1840827046",
-    "translationStatus": "source-only",
-    "updated": "2024-10-18T08:21:03.000Z",
-    "imageCount": 4,
     "mathCount": 0
   },
   {
@@ -996,23 +808,6 @@
     "updated": "2024-01-23T17:03:29.000Z",
     "questionTitle": "控制科学与工程（自动化专业）本科大三。请问控制方向的科研需要什么基础才能开始科研工作？",
     "imageCount": 0,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-676952414",
-    "title": "拓扑流形的拓扑性质",
-    "date": "2024-01-09",
-    "excerpt": "参考GTM218，大概一年多前写的，放在这里供自己参考。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/676952414",
-    "sourceType": "zhihu-article",
-    "zhihuId": "676952414",
-    "translationStatus": "source-only",
-    "updated": "2024-01-09T16:42:42.000Z",
-    "imageCount": 3,
     "mathCount": 0
   },
   {
