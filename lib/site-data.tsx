@@ -4,8 +4,8 @@ export const languages: Lang[] = ['zh', 'en'];
 export const copy = {
   zh: {
     nav: { home: '首页', cv: '简历', research: '科研经历', blog: '博客' },
-    switchLabel: 'EN', intro: '控制 · 优化 · 机器人',
-    hero: <>在数学结构与<em>真实世界</em>之间，研究规划与机器人智能。</>,
+    switchLabel: 'EN', intro: '控制 · 数学 · 艺术 · 机器人',
+    hero: <>让数学结构、工程理性与<em>艺术感知</em>在真实世界相遇。</>,
     lead: '我是郭乾琛，一名受训于自动化、根植于数学思维的研究者。我的工作围绕运动规划、基于优化的决策方法、实时世界模型与接触丰富的机器人任务展开。',
     viewResearch: '查看科研经历', readBlog: '阅读技术博客',
     status: '当前：重庆大学—MBZUAI 访问学生', role: '控制科学与工程硕士在读',
@@ -26,8 +26,8 @@ export const copy = {
   },
   en: {
     nav: { home: 'Home', cv: 'CV', research: 'Research', blog: 'Blog' },
-    switchLabel: '中文', intro: 'CONTROL · OPTIMIZATION · ROBOTICS',
-    hero: <>Studying planning and robotic intelligence between <em>mathematical structure</em> and the physical world.</>,
+    switchLabel: '中文', intro: 'CONTROL · MATH · ART · ROBOTICS',
+    hero: <>Where mathematical structure, engineering reason, and <em>artistic perception</em> meet the physical world.</>,
     lead: 'I am Qianchen Guo, a researcher trained in automation and rooted in mathematical thinking. My work spans motion planning, optimization-based decision making, real-time world models, and contact-rich robotic tasks.',
     viewResearch: 'Explore research', readBlog: 'Read technical notes',
     status: 'Current: Visiting student at CQU–MBZUAI', role: 'M.Sc. candidate in Control Science and Engineering',
