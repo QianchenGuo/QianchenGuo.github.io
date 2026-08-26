@@ -374,60 +374,6 @@
     "mathCount": 27
   },
   {
-    "slug": "zhihu-answer-1995177907308479235",
-    "title": "卡尔曼滤波方程组的深刻理解有哪些？",
-    "date": "2026-01-15",
-    "excerpt": "首先，众所周知Kalman滤波有很多角度，而且关于这个点讨论也很多，许多人吵来吵去的，然后我也觉得对之前我自己的文章也不太满意，那么我就基于之前发过的几篇文章以及知乎上一些好文章进行一个汇总，争取做到最全面（然后杀死这个话题 ）。此外也谈谈我的一些新理解。 首先提纲挈领，Kalman滤波之所以有这么多角度去解释，单纯只",
-    "tags": [
-      "知乎归档",
-      "知乎回答"
-    ],
-    "source": "https://www.zhihu.com/question/53815343/answer/1995177907308479235",
-    "sourceType": "zhihu-answer",
-    "zhihuId": "1995177907308479235",
-    "translationStatus": "source-only",
-    "updated": "2026-01-15T09:01:01.000Z",
-    "questionTitle": "卡尔曼滤波方程组的深刻理解有哪些？",
-    "imageCount": 0,
-    "mathCount": 27
-  },
-  {
-    "slug": "zhihu-answer-3704342088",
-    "title": "怎样才叫真正理解卡尔曼滤波 Kalman Filter？",
-    "date": "2026-01-15",
-    "excerpt": "首先，众所周知Kalman滤波有很多角度，而且关于这个点讨论也很多，许多人吵来吵去的，然后我也觉得对之前我自己的文章也不太满意，那么我就基于之前发过的几篇文章以及知乎上一些好文章进行一个汇总，争取做到最全面（然后杀死这个话题😜）。此外也谈谈我的一些新理解。 首先提纲挈领，Kalman滤波之所以有这么多角度去解释，单纯",
-    "tags": [
-      "知乎归档",
-      "知乎回答"
-    ],
-    "source": "https://www.zhihu.com/question/47559783/answer/3704342088",
-    "sourceType": "zhihu-answer",
-    "zhihuId": "3704342088",
-    "translationStatus": "source-only",
-    "updated": "2026-01-15T08:53:40.000Z",
-    "questionTitle": "怎样才叫真正理解卡尔曼滤波 Kalman Filter？",
-    "imageCount": 0,
-    "mathCount": 27
-  },
-  {
-    "slug": "zhihu-answer-1995177574104601161",
-    "title": "卡尔曼滤波（Kalman Filter）有哪些推导方式？",
-    "date": "2026-01-15",
-    "excerpt": "首先，众所周知Kalman滤波有很多角度，而且关于这个点讨论也很多，许多人吵来吵去的，然后我也觉得对之前我自己的文章也不太满意，那么我就基于之前发过的几篇文章以及知乎上一些好文章进行一个汇总，争取做到最全面（然后杀死这个话题 ）。此外也谈谈我的一些新理解。 首先提纲挈领，Kalman滤波之所以有这么多角度去解释，单纯只",
-    "tags": [
-      "知乎归档",
-      "知乎回答"
-    ],
-    "source": "https://www.zhihu.com/question/37886487/answer/1995177574104601161",
-    "sourceType": "zhihu-answer",
-    "zhihuId": "1995177574104601161",
-    "translationStatus": "source-only",
-    "updated": "2026-01-15T08:56:42.000Z",
-    "questionTitle": "卡尔曼滤波（Kalman Filter）有哪些推导方式？",
-    "imageCount": 0,
-    "mathCount": 27
-  },
-  {
     "slug": "zhihu-answer-1986545344402724797",
     "title": "2025年你的控制理论研究有什么收获和感悟？",
     "date": "2025-12-22",
@@ -789,24 +735,6 @@
     "translationStatus": "source-only",
     "updated": "2024-01-25T17:01:16.000Z",
     "questionTitle": "两个拓扑空间同胚，其中一个是拓扑流形，另一个也一定是吗？如果其中一个还是微分流形，他们必然微分同胚吗？",
-    "imageCount": 0,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-answer-3373771722",
-    "title": "控制科学与工程（自动化专业）本科大三。请问控制方向的科研需要什么基础才能开始科研工作？",
-    "date": "2024-01-23",
-    "excerpt": "第一个问题 不知道能干什么就去找点研究干吧，都大三了，可以提前找找系里导师，商量一下本科生进组的事。有的导师比较欢迎，有的导师以后不在他手下读研可能不要。相信你会发现学了这些能干的事情还是不少的了。 第二个问题（四连问） 基础自动化本科那些东西就差不多够了。如果你去找兴趣方向的导师或者学长学姐聊聊的话，他们会给你指条学",
-    "tags": [
-      "知乎归档",
-      "知乎回答"
-    ],
-    "source": "https://www.zhihu.com/question/623941004/answer/3373771722",
-    "sourceType": "zhihu-answer",
-    "zhihuId": "3373771722",
-    "translationStatus": "source-only",
-    "updated": "2024-01-23T17:03:29.000Z",
-    "questionTitle": "控制科学与工程（自动化专业）本科大三。请问控制方向的科研需要什么基础才能开始科研工作？",
     "imageCount": 0,
     "mathCount": 0
   },
