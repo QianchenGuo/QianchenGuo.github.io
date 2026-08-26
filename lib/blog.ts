@@ -38,7 +38,7 @@ export function getAllPosts(lang: Lang): BlogPost[] {
   const translatedSlugs = new Set(nativePosts.map(post => post.slug));
   const sourceFallbacks = allPosts
     .filter(post => post.lang === 'zh' && (post.sourceType === 'zhihu-article' || post.sourceType === 'zhihu-answer') && !translatedSlugs.has(post.slug))
-    .map(post => ({
+    .map(post => withTaxonomy({
       ...post,
       lang: 'en' as const,
       sourceLang: 'zh' as const,

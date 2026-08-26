@@ -4,14 +4,18 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import { getAllPosts, type BlogPost } from '@/lib/blog';
 import { type Lang } from '@/lib/site-data';
+import { blogColumns, columnBySlug } from '@/lib/columns';
 import { SiteShell } from './site-shell';
+
+function PostLink({ lang, post, cn }: { lang: Lang; post: BlogPost; cn: boolean }) {
+  return <a className="post-card" href={`/${lang}/blog/${post.slug}`}><div className="post-date">{post.date}</div><div><h2>{post.title}</h2><p>{post.excerpt}</p><div className="tag-list">{post.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}</div><span className="status">{post.sourceLang === 'zh' ? 'Chinese source · translation pending' : post.sourceType === 'zhihu-answer' ? (cn ? '知乎回答完整归档' : 'Zhihu answer archive') : post.sourceType === 'zhihu-article' ? (cn ? '知乎原文完整归档' : 'Zhihu source archive') : (cn ? '结构化整理版' : 'Editorial adaptation')}</span></div><span className="post-arrow">↗</span></a>;
+}
 
 export function BlogPage({ lang }: { lang: Lang }) {
   const posts = getAllPosts(lang);
   const cn = lang === 'zh';
   const articlePosts = posts.filter(post => post.sourceType === 'zhihu-article');
   const answerPosts = posts.filter(post => post.sourceType === 'zhihu-answer');
-  const articleOrder = ['移动机器人决策规划', '优化理论', '控制理论', '微分流形与分析力学', '数学学习方法论', '工程与计算'];
   const answerOrder = ['控制理论', '滤波与估计', '数学学习', '优化'];
   const groupBy = (items: BlogPost[], key: (post: BlogPost) => string) => items.reduce((acc, item) => {
     const k = key(item);
@@ -19,20 +23,28 @@ export function BlogPage({ lang }: { lang: Lang }) {
     acc.get(k)!.push(item);
     return acc;
   }, new Map<string, BlogPost[]>());
-  const articleGroups = [...groupBy(articlePosts, post => post.column || '未分类').entries()]
-    .sort((a,b) => (articleOrder.indexOf(a[0]) - articleOrder.indexOf(b[0])) || (a[0] as string).localeCompare(b[0] as string));
-  const answerGroups = [...groupBy(answerPosts, post => post.category || '未分类').entries()]
+  const columnsWithPosts = blogColumns.map(column => ({ column, items: articlePosts.filter(post => post.column === column.name) })).filter(group => group.items.length > 0);
+  const nonColumnPosts = posts.filter(post => !post.column);
+  const nonColumnGroups = [...groupBy(nonColumnPosts, post => post.category || '其他').entries()]
     .sort((a,b) => (answerOrder.indexOf(a[0]) - answerOrder.indexOf(b[0])) || (a[0] as string).localeCompare(b[0] as string));
-  const renderPost = (post: BlogPost) => <a className="post-card" key={post.slug} href={`/${lang}/blog/${post.slug}`}><div className="post-date">{post.date}</div><div><h2>{post.title}</h2><p>{post.excerpt}</p><div className="tag-list">{post.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}</div><span className="status">{post.sourceLang === 'zh' ? 'Chinese source · translation pending' : post.sourceType === 'zhihu-answer' ? (cn ? '知乎回答完整归档' : 'Zhihu answer archive') : post.sourceType === 'zhihu-article' ? (cn ? '知乎原文完整归档' : 'Zhihu source archive') : (cn ? '结构化整理版' : 'Editorial adaptation')}</span></div><span className="post-arrow">↗</span></a>;
   return <SiteShell lang={lang}><main><header className="page-hero"><div className="shell"><p className="eyebrow">04 / NOTES</p><h1>{cn ? '技术博客' : 'Technical Notes'}</h1><p>{cn ? '围绕控制、优化、决策规划与机器人学的长期技术写作。正文使用 Markdown 管理，原生支持 LaTeX 数学公式。' : 'Long-form notes on control, optimization, decision making, motion planning, and robotics. Posts are maintained in Markdown with native LaTeX support.'}</p></div></header>
     <section className="shell section"><div className="blog-toolbar"><span>{cn ? `${posts.length} 篇本地 Markdown · ${articlePosts.length} 篇文章 · ${answerPosts.length} 条回答` : `${posts.length} local Markdown entries · ${articlePosts.length} articles · ${answerPosts.length} answers`}</span><span>MARKDOWN + KATEX</span></div>
       <div className="blog-columns">
-        {articleGroups.map(([column, items], index) => <section className="blog-column" key={column as string}><div className="column-head"><span className="column-index">{cn ? `专栏 ${String(index + 1).padStart(2, '0')}` : `COLUMN ${String(index + 1).padStart(2, '0')}`}</span><div><h2>{column}</h2><p>{cn ? `${items.length} 篇文章` : `${items.length} articles`}</p></div></div><div className="blog-list">{items.map(renderPost)}</div></section>)}
-        <section className="blog-column answers-column"><div className="column-head"><span className="column-index">ANSWERS</span><div><h2>{cn ? '知乎回答' : 'Zhihu Answers'}</h2><p>{cn ? `${answerPosts.length} 条回答` : `${answerPosts.length} answers`}</p></div></div>
-          {answerGroups.map(([category, items]) => <div className="answer-group" key={category as string}><h3>{category}</h3><div className="blog-list">{items.map(renderPost)}</div></div>)}
-        </section>
+        <div className="column-card-grid">
+          {columnsWithPosts.map(({ column, items }) => <a className="column-card" key={column.slug} href={`/${lang}/blog/column/${column.slug}`}><span className="column-index">{cn ? '专栏' : 'COLUMN'}</span><h2>{cn ? column.name : column.enName}</h2><p>{cn ? column.zhDescription : column.enDescription}</p><div className="column-meta">{items.length} {cn ? '篇文章' : 'articles'} · {cn ? '进入专栏 →' : 'Open column →'}</div></a>)}
+        </div>
+        {nonColumnGroups.length > 0 && <section className="outside-columns"><div className="outside-head"><span className="column-index">OUTSIDE</span><div><h2>{cn ? '不在专栏里' : 'Outside Columns'}</h2><p>{cn ? `${nonColumnPosts.length} 条回答与未归档内容` : `${nonColumnPosts.length} answers and unlisted notes`}</p></div></div>{nonColumnGroups.map(([category, items]) => <div className="answer-group" key={category as string}><h3>{category}</h3><div className="blog-list">{items.map(post => <PostLink key={post.slug} lang={lang} post={post} cn={cn} />)}</div></div>)}</section>}
       </div>
     </section></main></SiteShell>;
+}
+
+export function ColumnPage({ lang, columnSlug }: { lang: Lang; columnSlug: string }) {
+  const column = columnBySlug.get(columnSlug);
+  const cn = lang === 'zh';
+  if (!column) return null;
+  const posts = getAllPosts(lang).filter(post => post.column === column.name);
+  return <SiteShell lang={lang}><main><header className="page-hero"><div className="shell"><p className="eyebrow">COLUMN / {columnSlug.toUpperCase()}</p><h1>{cn ? column.name : column.enName}</h1><p>{cn ? column.zhDescription : column.enDescription}</p></div></header>
+    <section className="shell section"><div className="blog-toolbar"><span>{cn ? `${posts.length} 篇文章` : `${posts.length} articles`}</span><span>MARKDOWN + KATEX</span></div><div className="blog-list">{posts.map(post => <PostLink key={post.slug} lang={lang} post={post} cn={cn} />)}</div></section></main></SiteShell>;
 }
 
 export function ArticlePage({ lang, post }: { lang: Lang; post: BlogPost }) {
