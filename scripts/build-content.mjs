@@ -17,6 +17,9 @@ for (const lang of ['zh','en']) {
       excerpt: String(parsed.data.excerpt ?? ''),
       tags: Array.isArray(parsed.data.tags) ? parsed.data.tags.map(String) : [],
       source: parsed.data.source ? String(parsed.data.source) : undefined,
+      sourceType: parsed.data.sourceType ? String(parsed.data.sourceType) : undefined,
+      zhihuId: parsed.data.zhihuId ? String(parsed.data.zhihuId) : undefined,
+      translationStatus: parsed.data.translationStatus ? String(parsed.data.translationStatus) : undefined,
       content: parsed.content,
     });
   }
