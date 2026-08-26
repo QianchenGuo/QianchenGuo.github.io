@@ -29,13 +29,6 @@ export const blogColumns: BlogColumn[] = [
     enDescription: 'Control theory, Kalman filtering, optimal estimation, and mathematical control notes.',
   },
   {
-    slug: 'differential-manifold',
-    name: '微分流形与分析力学',
-    enName: 'Differential Manifolds & Analytical Mechanics',
-    zhDescription: '流形、几何与分析力学相关的数学笔记。',
-    enDescription: 'Mathematical notes on manifolds, geometry, and analytical mechanics.',
-  },
-  {
     slug: 'math-learning',
     name: '数学学习方法论',
     enName: 'Mathematics Learning',

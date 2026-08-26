@@ -14,26 +14,13 @@ function PostLink({ lang, post, cn }: { lang: Lang; post: BlogPost; cn: boolean 
 export function BlogPage({ lang }: { lang: Lang }) {
   const posts = getAllPosts(lang);
   const cn = lang === 'zh';
-  const articlePosts = posts.filter(post => post.sourceType === 'zhihu-article');
-  const answerPosts = posts.filter(post => post.sourceType === 'zhihu-answer');
-  const answerOrder = ['控制理论', '滤波与估计', '数学学习', '优化'];
-  const groupBy = (items: BlogPost[], key: (post: BlogPost) => string) => items.reduce((acc, item) => {
-    const k = key(item);
-    if (!acc.has(k)) acc.set(k, []);
-    acc.get(k)!.push(item);
-    return acc;
-  }, new Map<string, BlogPost[]>());
-  const columnsWithPosts = blogColumns.map(column => ({ column, items: articlePosts.filter(post => post.column === column.name) })).filter(group => group.items.length > 0);
-  const nonColumnPosts = posts.filter(post => !post.column);
-  const nonColumnGroups = [...groupBy(nonColumnPosts, post => post.category || '其他').entries()]
-    .sort((a,b) => (answerOrder.indexOf(a[0]) - answerOrder.indexOf(b[0])) || (a[0] as string).localeCompare(b[0] as string));
+  const columnsWithPosts = blogColumns.map(column => ({ column, items: posts.filter(post => post.column === column.name) })).filter(group => group.items.length > 0);
   return <SiteShell lang={lang}><main><header className="page-hero"><div className="shell"><p className="eyebrow">04 / NOTES</p><h1>{cn ? '技术博客' : 'Technical Notes'}</h1><p>{cn ? '围绕控制、优化、决策规划与机器人学的长期技术写作。正文使用 Markdown 管理，原生支持 LaTeX 数学公式。' : 'Long-form notes on control, optimization, decision making, motion planning, and robotics. Posts are maintained in Markdown with native LaTeX support.'}</p></div></header>
-    <section className="shell section"><div className="blog-toolbar"><span>{cn ? `${posts.length} 篇本地 Markdown · ${articlePosts.length} 篇文章 · ${answerPosts.length} 条回答` : `${posts.length} local Markdown entries · ${articlePosts.length} articles · ${answerPosts.length} answers`}</span><span>MARKDOWN + KATEX</span></div>
+    <section className="shell section"><div className="blog-toolbar"><span>{cn ? `${posts.length} 篇本地 Markdown` : `${posts.length} local Markdown entries`}</span><span>MARKDOWN + KATEX</span></div>
       <div className="blog-columns">
         <div className="column-card-grid">
           {columnsWithPosts.map(({ column, items }) => <a className="column-card" key={column.slug} href={`/${lang}/blog/column/${column.slug}`}><span className="column-index">{cn ? '专栏' : 'COLUMN'}</span><h2>{cn ? column.name : column.enName}</h2><p>{cn ? column.zhDescription : column.enDescription}</p><div className="column-meta">{items.length} {cn ? '篇文章' : 'articles'} · {cn ? '进入专栏 →' : 'Open column →'}</div></a>)}
         </div>
-        {nonColumnGroups.length > 0 && <section className="outside-columns"><div className="outside-head"><span className="column-index">OUTSIDE</span><div><h2>{cn ? '不在专栏里' : 'Outside Columns'}</h2><p>{cn ? `${nonColumnPosts.length} 条回答与未归档内容` : `${nonColumnPosts.length} answers and unlisted notes`}</p></div></div>{nonColumnGroups.map(([category, items]) => <div className="answer-group" key={category as string}><h3>{category}</h3><div className="blog-list">{items.map(post => <PostLink key={post.slug} lang={lang} post={post} cn={cn} />)}</div></div>)}</section>}
       </div>
     </section></main></SiteShell>;
 }

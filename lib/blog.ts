@@ -17,11 +17,20 @@ const answerCategoryById = new Map<string, string>();
 for (const [category, ids] of Object.entries(taxonomy.answerCategories)) {
   for (const id of ids) answerCategoryById.set(id, category);
 }
+const answerColumnByCategory: Record<string, string> = {
+  '控制理论': '控制理论',
+  '滤波与估计': '控制理论',
+  '数学学习': '数学学习方法论',
+  '优化': '优化理论',
+};
 
 function withTaxonomy(post: BlogPost): BlogPost {
   if (post.zhihuId) {
     if (post.sourceType === 'zhihu-article') post.column = articleColumnById.get(post.zhihuId);
-    if (post.sourceType === 'zhihu-answer') post.category = answerCategoryById.get(post.zhihuId);
+    if (post.sourceType === 'zhihu-answer') {
+      post.category = answerCategoryById.get(post.zhihuId);
+      post.column = answerColumnByCategory[post.category || ''];
+    }
   }
   return post;
 }
