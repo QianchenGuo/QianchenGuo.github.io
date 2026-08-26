@@ -9,7 +9,7 @@ export const copy = {
     lead: '我是郭乾琛，一名受训于自动化、根植于数学思维的研究者。我的工作围绕运动规划、基于优化的决策方法、实时世界模型与接触丰富的机器人任务展开。',
     viewResearch: '查看科研经历', readBlog: '阅读技术博客',
     status: '当前：重庆大学—MBZUAI 访问学生', role: '控制科学与工程硕士在读',
-    metrics: [['76','知乎文章'],['78','知乎回答'],['50万+','公开技术写作字数'],['200+','零阶优化 MPC 社群成员']],
+    metrics: [['76','知乎文章'],['40','知乎回答'],['50万+','公开技术写作字数'],['200+','零阶优化 MPC 社群成员']],
     focusTitle: '从规划出发，连接理论与物理智能',
     focusDesc: '研究关心的不只是单个算法，而是问题结构、实时推理与真实系统之间如何形成闭环。',
     focus: [
@@ -31,7 +31,7 @@ export const copy = {
     lead: 'I am Qianchen Guo, a researcher trained in automation and rooted in mathematical thinking. My work spans motion planning, optimization-based decision making, real-time world models, and contact-rich robotic tasks.',
     viewResearch: 'Explore research', readBlog: 'Read technical notes',
     status: 'Current: Visiting student at CQU–MBZUAI', role: 'M.Sc. candidate in Control Science and Engineering',
-    metrics: [['76','Zhihu articles'],['78','Zhihu answers'],['500k+','Chinese characters published'],['200+','Zero-order Optimization MPC community']],
+    metrics: [['76','Zhihu articles'],['40','Zhihu answers'],['500k+','Chinese characters published'],['200+','Zero-order Optimization MPC community']],
     focusTitle: 'Planning as a bridge between theory and physical intelligence',
     focusDesc: 'My research goes beyond isolated algorithms to study how problem structure, real-time inference, and physical systems form a coherent loop.',
     focus: [
