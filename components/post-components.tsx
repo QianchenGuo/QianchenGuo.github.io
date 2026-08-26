@@ -9,11 +9,29 @@ import { SiteShell } from './site-shell';
 export function BlogPage({ lang }: { lang: Lang }) {
   const posts = getAllPosts(lang);
   const cn = lang === 'zh';
-  const articles = posts.filter(post => post.sourceType === 'zhihu-article').length;
-  const answers = posts.filter(post => post.sourceType === 'zhihu-answer').length;
+  const articlePosts = posts.filter(post => post.sourceType === 'zhihu-article');
+  const answerPosts = posts.filter(post => post.sourceType === 'zhihu-answer');
+  const articleOrder = ['移动机器人决策规划', '优化理论', '控制理论', '微分流形与分析力学', '数学学习方法论', '工程与计算'];
+  const answerOrder = ['控制理论', '滤波与估计', '数学学习', '优化'];
+  const groupBy = (items: BlogPost[], key: (post: BlogPost) => string) => items.reduce((acc, item) => {
+    const k = key(item);
+    if (!acc.has(k)) acc.set(k, []);
+    acc.get(k)!.push(item);
+    return acc;
+  }, new Map<string, BlogPost[]>());
+  const articleGroups = [...groupBy(articlePosts, post => post.column || '未分类').entries()]
+    .sort((a,b) => (articleOrder.indexOf(a[0]) - articleOrder.indexOf(b[0])) || (a[0] as string).localeCompare(b[0] as string));
+  const answerGroups = [...groupBy(answerPosts, post => post.category || '未分类').entries()]
+    .sort((a,b) => (answerOrder.indexOf(a[0]) - answerOrder.indexOf(b[0])) || (a[0] as string).localeCompare(b[0] as string));
+  const renderPost = (post: BlogPost) => <a className="post-card" key={post.slug} href={`/${lang}/blog/${post.slug}`}><div className="post-date">{post.date}</div><div><h2>{post.title}</h2><p>{post.excerpt}</p><div className="tag-list">{post.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}</div><span className="status">{post.sourceLang === 'zh' ? 'Chinese source · translation pending' : post.sourceType === 'zhihu-answer' ? (cn ? '知乎回答完整归档' : 'Zhihu answer archive') : post.sourceType === 'zhihu-article' ? (cn ? '知乎原文完整归档' : 'Zhihu source archive') : (cn ? '结构化整理版' : 'Editorial adaptation')}</span></div><span className="post-arrow">↗</span></a>;
   return <SiteShell lang={lang}><main><header className="page-hero"><div className="shell"><p className="eyebrow">04 / NOTES</p><h1>{cn ? '技术博客' : 'Technical Notes'}</h1><p>{cn ? '围绕控制、优化、决策规划与机器人学的长期技术写作。正文使用 Markdown 管理，原生支持 LaTeX 数学公式。' : 'Long-form notes on control, optimization, decision making, motion planning, and robotics. Posts are maintained in Markdown with native LaTeX support.'}</p></div></header>
-    <section className="shell section"><div className="blog-toolbar"><span>{cn ? `${posts.length} 篇本地 Markdown · ${articles} 篇文章 · ${answers} 条回答` : `${posts.length} local Markdown entries · ${articles} articles · ${answers} answers`}</span><span>MARKDOWN + KATEX</span></div>
-      <div className="blog-list">{posts.map(post => <a className="post-card" key={post.slug} href={`/${lang}/blog/${post.slug}`}><div className="post-date">{post.date}</div><div><h2>{post.title}</h2><p>{post.excerpt}</p><div className="tag-list">{post.tags.map(tag => <span className="tag" key={tag}>{tag}</span>)}</div><span className="status">{post.sourceLang === 'zh' ? 'Chinese source · translation pending' : post.sourceType === 'zhihu-answer' ? (cn ? '知乎回答完整归档' : 'Zhihu answer archive') : post.sourceType === 'zhihu-article' ? (cn ? '知乎原文完整归档' : 'Zhihu source archive') : (cn ? '结构化整理版' : 'Editorial adaptation')}</span></div><span className="post-arrow">↗</span></a>)}</div>
+    <section className="shell section"><div className="blog-toolbar"><span>{cn ? `${posts.length} 篇本地 Markdown · ${articlePosts.length} 篇文章 · ${answerPosts.length} 条回答` : `${posts.length} local Markdown entries · ${articlePosts.length} articles · ${answerPosts.length} answers`}</span><span>MARKDOWN + KATEX</span></div>
+      <div className="blog-columns">
+        {articleGroups.map(([column, items], index) => <section className="blog-column" key={column as string}><div className="column-head"><span className="column-index">{cn ? `专栏 ${String(index + 1).padStart(2, '0')}` : `COLUMN ${String(index + 1).padStart(2, '0')}`}</span><div><h2>{column}</h2><p>{cn ? `${items.length} 篇文章` : `${items.length} articles`}</p></div></div><div className="blog-list">{items.map(renderPost)}</div></section>)}
+        <section className="blog-column answers-column"><div className="column-head"><span className="column-index">ANSWERS</span><div><h2>{cn ? '知乎回答' : 'Zhihu Answers'}</h2><p>{cn ? `${answerPosts.length} 条回答` : `${answerPosts.length} answers`}</p></div></div>
+          {answerGroups.map(([category, items]) => <div className="answer-group" key={category as string}><h3>{category}</h3><div className="blog-list">{items.map(renderPost)}</div></div>)}
+        </section>
+      </div>
     </section></main></SiteShell>;
 }
 
