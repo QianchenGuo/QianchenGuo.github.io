@@ -408,23 +408,6 @@
     "mathCount": 0
   },
   {
-    "slug": "zhihu-1976390320955597206",
-    "title": "微分方程动力系统(四)周期轨与极限环的局部分析",
-    "date": "2026-03-03",
-    "excerpt": "先举了三个例子 主要是表示周期输入会导致状态轨线的周期性。随后考虑n维非线性周期系统，研究其周期解，同时加入一个非线性扰动g，考虑在已知周期解情况下，扰动是否会破坏周期解，若存在，扰动系数趋于零时其能否收敛于原无扰动系统周期解。 例子说明了扰动可以破坏周期解，能否被破坏取决于原系统的性质。于是在周期解附近线性化。 利用",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1976390320955597206",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1976390320955597206",
-    "translationStatus": "source-only",
-    "updated": "2026-03-03T13:05:54.000Z",
-    "imageCount": 13,
-    "mathCount": 0
-  },
-  {
     "slug": "zhihu-1997333141497590142",
     "title": "自动驾驶PPnC遮挡相关处理",
     "date": "2026-02-24",
@@ -528,159 +511,6 @@
     "updated": "2025-12-22T13:15:18.000Z",
     "questionTitle": "2025年你的控制理论研究有什么收获和感悟？",
     "imageCount": 2,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1977036625306490538",
-    "title": "微分方程动力系统(五)极限集与全局理论基本概念",
-    "date": "2025-11-26",
-    "excerpt": "α极限集（从哪来），ω极限集（到哪去），平衡点与周期轨是两种最简单也是最特殊的解，刚好有ω(x)＝α(x)＝｛φt(x)｝ 此外举了几个例子说明极限集可能不存在，也有可能有不同轨线的极限集一致，同时极限集也不总是平衡点或者周期轨，有时是几条同宿轨组成的极限集，极限集还可以是坐标轴。此外，这还是二维系统，高维系统的极限集",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1977036625306490538",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1977036625306490538",
-    "translationStatus": "source-only",
-    "updated": "2025-11-26T08:28:40.000Z",
-    "imageCount": 11,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1976384815726084153",
-    "title": "微分方程动力系统(二)Lyapunov稳定性理论",
-    "date": "2025-11-26",
-    "excerpt": "简单讲了一下Lyapunov第一法（线性化）和第二法。具体更丰富的内容可以见控制理论专栏中的Lyapunov稳定性理论。 非线性系统 Ch4.Lyapunov稳定性7 赞同 · 0 评论 文章",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1976384815726084153",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1976384815726084153",
-    "translationStatus": "source-only",
-    "updated": "2025-11-26T01:33:30.000Z",
-    "imageCount": 9,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1932553076285370739",
-    "title": "复分析(十三)§5.1-5.3椭圆积分与椭圆函数",
-    "date": "2025-11-24",
-    "excerpt": "知乎原文归档。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1932553076285370739",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1932553076285370739",
-    "translationStatus": "source-only",
-    "updated": "2025-11-24T08:40:29.000Z",
-    "imageCount": 19,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1932554285280887030",
-    "title": "复分析(十四)§5.4模形式与模函数入门",
-    "date": "2025-11-24",
-    "excerpt": "知乎原文归档。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1932554285280887030",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1932554285280887030",
-    "translationStatus": "source-only",
-    "updated": "2025-11-24T08:40:46.000Z",
-    "imageCount": 14,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1932555164033736937",
-    "title": "复分析(十五)§6.1-6.3 Γ函数与ζ函数",
-    "date": "2025-11-24",
-    "excerpt": "知乎原文归档。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1932555164033736937",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1932555164033736937",
-    "translationStatus": "source-only",
-    "updated": "2025-11-24T08:41:01.000Z",
-    "imageCount": 15,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1932556179382469265",
-    "title": "复分析(十六) §6.4素数定理",
-    "date": "2025-11-24",
-    "excerpt": "知乎原文归档。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1932556179382469265",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1932556179382469265",
-    "translationStatus": "source-only",
-    "updated": "2025-11-24T08:41:29.000Z",
-    "imageCount": 7,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1932556910319629914",
-    "title": "复分析(十七)§7补遗",
-    "date": "2025-11-24",
-    "excerpt": "知乎原文归档。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1932556910319629914",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1932556910319629914",
-    "translationStatus": "source-only",
-    "updated": "2025-11-24T08:41:45.000Z",
-    "imageCount": 8,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1976333226348913003",
-    "title": "微分方程动力系统(一)基本概念",
-    "date": "2025-11-24",
-    "excerpt": "相空间，单参数变换群，相流，平衡点，周期轨等概念。 不解方程研究解轨线的性质的理论称为定性理论，可以分成研究平衡点、周期轨以及大范围轨线结构的内容。 1.平衡点 其存在性即相流的不动点存在性，而研究轨线性质可以分成局部理论与全局理论。前者是已知向量场加扰动看看有没有什么变化或者保持了什么性质。 局部理论又称为扰动理论，",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1976333226348913003",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1976333226348913003",
-    "translationStatus": "source-only",
-    "updated": "2025-11-24T13:34:43.000Z",
-    "imageCount": 5,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1976385431621869816",
-    "title": "微分方程动力系统(三)平面动力系统平衡点",
-    "date": "2025-11-24",
-    "excerpt": "先讲常系数线性系统的平衡点分类 然后根据线性系统平衡点分类利用线性化手段研究非线性系统平衡点，非中心或退化情形在非线性项下仍然保持稳定。 如果为中心情形，使用后继函数法，可以判断非线性扰动后得到稳定还是不稳定焦点。 下面则利用形式级数法，引入复坐标，构造形式级数代入，尝试找到一个Lyapunov函数，让导数小于零。 形",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1976385431621869816",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1976385431621869816",
-    "translationStatus": "source-only",
-    "updated": "2025-11-24T13:36:34.000Z",
-    "imageCount": 14,
     "mathCount": 0
   },
   {
@@ -802,57 +632,6 @@
     "updated": "2025-08-09T08:30:10.000Z",
     "imageCount": 12,
     "mathCount": 9
-  },
-  {
-    "slug": "zhihu-1932551372131275924",
-    "title": "复分析(十二)§4.4-4.6Riemann映射定理的周边话题",
-    "date": "2025-08-01",
-    "excerpt": "有了Riemann映射定理的内容后，对于这个开集之间的双全纯映射，其对于开集边界上的行为可以很复杂。这也是很多共形映射相关分析中“边界对应”的基础内容。本部分可以参考Rudin以及Ahlfors，龚昇的书上仅仅是简单提到。 Riemann映射定理只说明了双全纯映射的存在唯一性，而具体显式地写出这一映射是非平凡的，除非区",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1932551372131275924",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1932551372131275924",
-    "translationStatus": "source-only",
-    "updated": "2025-08-01T08:31:34.000Z",
-    "imageCount": 8,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-1932549479283818645",
-    "title": "复分析(十一)§4.1-4.3共形映射与Riemann映射定理",
-    "date": "2025-07-26",
-    "excerpt": "第四章开始涉及到另一位复分析乃至数学上的巨擘——Riemann的一个核心工作，Riemann映射定理。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/1932549479283818645",
-    "sourceType": "zhihu-article",
-    "zhihuId": "1932549479283818645",
-    "translationStatus": "source-only",
-    "updated": "2025-07-26T13:47:34.000Z",
-    "imageCount": 16,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-720814730",
-    "title": "复分析(十) §3.5-3.6留数定理，解析延拓",
-    "date": "2025-07-26",
-    "excerpt": "本来还想加些注解，但是这个文章放我草稿箱里半年多了还没发出去，很气，所以不加注释了，就单纯把多年前的笔记发出来。",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/720814730",
-    "sourceType": "zhihu-article",
-    "zhihuId": "720814730",
-    "translationStatus": "source-only",
-    "updated": "2025-07-26T13:14:37.000Z",
-    "imageCount": 16,
-    "mathCount": 0
   },
   {
     "slug": "zhihu-answer-1921877693500199461",
@@ -1114,108 +893,6 @@
     "mathCount": 0
   },
   {
-    "slug": "zhihu-590552903",
-    "title": "复分析学习小记(二) 1.3-1.4复函数的微积分",
-    "date": "2024-09-28",
-    "excerpt": "之前也说过，我不想把这个系列搞成学习笔记，而是只把我觉得有意义的东西放上来，所以我不会去大众化地放一大堆定义。 接上篇 复分析学习小记(一) 1.11.2复数、复平面及其拓扑6 赞同 · 3 评论 文章 1.3复函数的微分 我们可以仿照数学分析的技术同样定义出复可微的概念，在某一区域 内处处可微则称在 上全纯， 上全体",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/590552903",
-    "sourceType": "zhihu-article",
-    "zhihuId": "590552903",
-    "translationStatus": "source-only",
-    "updated": "2024-09-28T01:11:05.000Z",
-    "imageCount": 4,
-    "mathCount": 73
-  },
-  {
-    "slug": "zhihu-576207693",
-    "title": "复分析学习小记(一) 1.1-1.2复数、复平面及其拓扑",
-    "date": "2024-09-28",
-    "excerpt": "绪论 这篇文章主要内容是我个人的复分析学习记录，我会将一些用到的值得一记的技术以及我的一些感想写下来，内容上与\"关于\"系列不同。注意我只会提到我觉得值得一记的，也就是说这并不是我的学习笔记，许多内容是没有的。 首先至今学到零点，我的一个总体感受就是：由于我的数学分析学习轻视跳过了许多大定理的证明，以至于我的分析功底根本",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/576207693",
-    "sourceType": "zhihu-article",
-    "zhihuId": "576207693",
-    "translationStatus": "source-only",
-    "updated": "2024-09-28T01:04:49.000Z",
-    "imageCount": 9,
-    "mathCount": 68
-  },
-  {
-    "slug": "zhihu-720506455",
-    "title": "复分析(九)§3.1-3.3Laurent级数，孤立奇点，整函数与亚纯函数",
-    "date": "2024-09-18",
-    "excerpt": "上接 共青城双子星：复分析(八)§2.6调和函数初步2 赞同 · 0 评论 文章 本文是第三章Weierstrass理论的前半基础部分，本章讲Weierstrass在单复变的成果，主要是提出来一套非平凡的复级数理论。 虽然表面上第二章Cauchy的理论关心的是全纯函数，而本章我们开始真正的关心奇点。但是，从另一个角度看",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/720506455",
-    "sourceType": "zhihu-article",
-    "zhihuId": "720506455",
-    "translationStatus": "source-only",
-    "updated": "2024-09-18T04:43:02.000Z",
-    "imageCount": 13,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-720510741",
-    "title": "复分析(八)§2.6调和函数初步",
-    "date": "2024-09-17",
-    "excerpt": "上接 共青城双子星：复分析(七) §2.42.5零点，最大模原理3 赞同 · 0 评论 文章 下面2.6节为调和函数初步，调和函数的内容十分重要，一些全纯函数的性质其实是继承自调和函数。在Ahfols、Rudin、华罗庚的《高等数学引论》中均用了较大的篇幅，这里限于课时只能作为初步介绍。 调和函数自动是解析的，而且有平",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/720510741",
-    "sourceType": "zhihu-article",
-    "zhihuId": "720510741",
-    "translationStatus": "source-only",
-    "updated": "2024-09-17T14:58:08.000Z",
-    "imageCount": 6,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-719207910",
-    "title": "复分析(七) §2.4-2.5零点，最大模原理",
-    "date": "2024-09-17",
-    "excerpt": "上接 共青城双子星：复分析（六）§2.3导数、级数、反函数6 赞同 · 0 评论 文章 心情好就更一下我已经学完一年多的复分析。同样是利用Cauchy的那套理论，我们还能获得的丰富结果。本文不少结果实质上反应了全纯函数的某种刚性。 首先是零点相关的一些结果。定义了零点和零点的阶，零点的阶实际上和多项式的因子分解有关，在",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/719207910",
-    "sourceType": "zhihu-article",
-    "zhihuId": "719207910",
-    "translationStatus": "source-only",
-    "updated": "2024-09-17T03:29:30.000Z",
-    "imageCount": 15,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-687751316",
-    "title": "复分析（六）§2.3导数、级数、反函数",
-    "date": "2024-09-17",
-    "excerpt": "上接： GQC双子星：复分析(五) 2.12.2Cauchy积分定理和Cauchy积分公式5 赞同 · 1 评论 文章 有了Cauchy积分公式这样强大的工具，我们对于导数、级数、反函数等方面有了许多有力的结果。 定理2.13告诉我们全纯自动无穷阶可导，且给出来高阶导数公式。 高阶导数公式得到推论，就是全纯函数自动有T",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/687751316",
-    "sourceType": "zhihu-article",
-    "zhihuId": "687751316",
-    "translationStatus": "source-only",
-    "updated": "2024-09-17T03:30:15.000Z",
-    "imageCount": 9,
-    "mathCount": 0
-  },
-  {
     "slug": "zhihu-694145140",
     "title": "不用概率的扩展Kalman滤波",
     "date": "2024-08-23",
@@ -1247,23 +924,6 @@
     "translationStatus": "source-only",
     "updated": "2024-07-12T13:03:43.000Z",
     "imageCount": 70,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-666360726",
-    "title": "复分析(五) 2.1-2.2Cauchy积分定理和Cauchy积分公式",
-    "date": "2024-04-23",
-    "excerpt": "上接 https://zhuanlan.zhihu.com/p/641740980?utmpsn=1706805937325789184 正如本章开头所说第一章只能算是从微积分的角度看复变，也就是说是从R²上分析的角度看复平面C上的分析。 而第二章我们要涉足Cauchy的理论——Cauchy积分定理和Cauchy积分公",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/666360726",
-    "sourceType": "zhihu-article",
-    "zhihuId": "666360726",
-    "translationStatus": "source-only",
-    "updated": "2024-04-23T13:03:19.000Z",
-    "imageCount": 21,
     "mathCount": 0
   },
   {
@@ -1354,40 +1014,6 @@
     "updated": "2024-01-09T16:42:42.000Z",
     "imageCount": 3,
     "mathCount": 0
-  },
-  {
-    "slug": "zhihu-641740980",
-    "title": "复分析 (四) 1.6全纯函数例子",
-    "date": "2023-12-14",
-    "excerpt": "接上篇 GQC双子星：复分析学习小记(三) 复级数1.5(未完)2 赞同 · 0 评论 文章 本节涉及复数域上的多项式，有理函数，指数函数，对数函数，三角函数，反三角函数，幂函数，Lambert w函数。 由于精力原因，不再大量码字，直接将笔记上传并附批注。 基本内容就连工科复变函数论也会涉及，不一样的是，647老师介",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/641740980",
-    "sourceType": "zhihu-article",
-    "zhihuId": "641740980",
-    "translationStatus": "source-only",
-    "updated": "2023-12-14T02:18:17.000Z",
-    "imageCount": 6,
-    "mathCount": 0
-  },
-  {
-    "slug": "zhihu-600293788",
-    "title": "复分析学习小记(三) 1.5复级数(未完)",
-    "date": "2023-12-14",
-    "excerpt": "需要添加公式 接上篇 复分析学习小记(二) 1.31.4复函数的微积分13 赞同 · 3 评论 文章 复常数项级数没有什么可说的，和 上点列是类似的，这里主要考虑函数项级数。同数学分析中一样，我们定义一个函数列的各种收敛——逐点收敛、一致收敛、紧一致收敛。有的书上称紧一致收敛为内闭一致收敛，但是这个定义的核心在于紧，只",
-    "tags": [
-      "知乎归档",
-      "知乎文章"
-    ],
-    "source": "https://zhuanlan.zhihu.com/p/600293788",
-    "sourceType": "zhihu-article",
-    "zhihuId": "600293788",
-    "translationStatus": "source-only",
-    "updated": "2023-12-14T02:19:34.000Z",
-    "imageCount": 2,
-    "mathCount": 2
   },
   {
     "slug": "zhihu-563396314",
