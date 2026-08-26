@@ -12,7 +12,7 @@ source: 'https://www.zhihu.com/question/621086529/answer/3203133195'
 sourceType: zhihu-answer
 zhihuId: '3203133195'
 translationStatus: source-only
-updated: '2023-09-08T10:36:31.000Z'
+updated: '2023-09-08T16:07:35.000Z'
 questionTitle: 考研数学这题注解为什么有误？
 ---
 凡是等价无穷小代换都可以看成极限的四则运算法则。

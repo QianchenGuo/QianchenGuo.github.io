@@ -1,6 +1,6 @@
 ---
 title: Jean Dieudonne（迪厄多内/丢多涅）的《现代分析基础》是一本什么样的教材？
-date: '2020-11-10'
+date: '2023-03-14'
 excerpt: >-
   参考如下回答整合而成，侵删 有哪些值得推荐的数学分析教材或者参考书？2642 赞同 · 189 评论 回答 数学分析书33 赞同 · 9 评论 文章
   https://www.zhihu.com/answer/2736855108
@@ -12,7 +12,7 @@ source: 'https://www.zhihu.com/question/429604942/answer/2434287998'
 sourceType: zhihu-answer
 zhihuId: '2434287998'
 translationStatus: source-only
-updated: '2020-11-10T02:24:22.000Z'
+updated: '2023-03-14T07:00:43.000Z'
 questionTitle: Jean Dieudonne（迪厄多内/丢多涅）的《现代分析基础》是一本什么样的教材？
 ---
 参考如下回答整合而成，侵删

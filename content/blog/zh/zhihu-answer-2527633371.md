@@ -1,6 +1,6 @@
 ---
 title: 哪个高校的微积分教材容易上手？
-date: '2022-06-07'
+date: '2022-06-13'
 excerpt: >-
   这个问题的场景很有意思，是家长为了更好地与孩子交流沟通。
   应用数学做PDE方向的话学的应该是数学分析这样一门课，但是考虑到场景仅仅是与孩子交流重新拾起自动化专业的微积分(高等数学)也未尝不可。
@@ -12,7 +12,7 @@ source: 'https://www.zhihu.com/question/536560644/answer/2527633371'
 sourceType: zhihu-answer
 zhihuId: '2527633371'
 translationStatus: source-only
-updated: '2022-06-07T14:01:33.000Z'
+updated: '2022-06-13T16:20:02.000Z'
 questionTitle: 哪个高校的微积分教材容易上手？
 ---
 这个问题的场景很有意思，是家长为了更好地与孩子交流沟通。

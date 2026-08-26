@@ -1,6 +1,6 @@
 ---
 title: 等价无穷小的替换原则到底是怎么样的呢？有大佬知道吗？
-date: '2021-01-16'
+date: '2023-09-12'
 excerpt: >-
   考研数学这题注解为什么有误？12 赞同 · 12 评论 回答
   可以看一看这篇针对上面的题目的回答，应该就能理解等价无穷小代换的本质，也就能理解一系列的代换规则。
@@ -11,7 +11,7 @@ source: 'https://www.zhihu.com/question/439663086/answer/3207522782'
 sourceType: zhihu-answer
 zhihuId: '3207522782'
 translationStatus: source-only
-updated: '2021-01-16T08:26:41.000Z'
+updated: '2023-09-12T02:42:57.000Z'
 questionTitle: 等价无穷小的替换原则到底是怎么样的呢？有大佬知道吗？
 ---
 ![](/blog-assets/zhihu/3207522782/image-01.jpg)

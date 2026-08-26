@@ -9,7 +9,7 @@ source: 'https://www.zhihu.com/question/538830471/answer/2538818866'
 sourceType: zhihu-answer
 zhihuId: '2538818866'
 translationStatus: source-only
-updated: '2022-06-21T12:32:00.000Z'
+updated: '2022-06-21T13:10:07.000Z'
 questionTitle: 这里为什么A的转置×A＝A方?
 ---
 建议把题目拍全再来提问。

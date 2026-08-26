@@ -9,7 +9,7 @@ source: 'https://www.zhihu.com/question/527459605/answer/2435923422'
 sourceType: zhihu-answer
 zhihuId: '2435923422'
 translationStatus: source-only
-updated: '2022-04-12T04:12:07.000Z'
+updated: '2022-04-12T08:19:22.000Z'
 questionTitle: 这个矩阵的可逆矩阵怎么求?
 ---
 ![](/blog-assets/zhihu/2435923422/image-02.jpg)

@@ -1,6 +1,6 @@
 ---
 title: 这道高一的数学题过程没看懂，为什么这么做？
-date: '2022-07-25'
+date: '2022-07-28'
 excerpt: >-
   刚刚好在准备大学生数学竞赛，于是想起了蒲和平开头的一道题，因为高中时也研究过这个东西再看到倍感亲切 。
   这是一种算是较常见的方程组法求解函数解析式的题目，当然了较常见也是恭维之辞了，其他答主也有表明这种题在高考少见平日多见的言论，我表示赞同，但少见不代表没有，了解这些也没什么坏处。
@@ -12,7 +12,7 @@ source: 'https://www.zhihu.com/question/545163582/answer/2597725478'
 sourceType: zhihu-answer
 zhihuId: '2597725478'
 translationStatus: source-only
-updated: '2022-07-25T02:37:24.000Z'
+updated: '2022-07-28T14:14:57.000Z'
 questionTitle: 这道高一的数学题过程没看懂，为什么这么做？
 ---
 刚刚好在准备大学生数学竞赛，于是想起了[蒲和平](https://zhida.zhihu.com/search?content_id=502399034&content_type=Answer&match_order=1&q=%E8%92%B2%E5%92%8C%E5%B9%B3&zhida_source=entity)开头的一道题，因为高中时也研究过这个东西再看到倍感亲切 。

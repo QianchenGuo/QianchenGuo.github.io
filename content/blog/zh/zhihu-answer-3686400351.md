@@ -9,7 +9,7 @@ source: 'https://www.zhihu.com/question/668620930/answer/3686400351'
 sourceType: zhihu-answer
 zhihuId: '3686400351'
 translationStatus: source-only
-updated: '2024-09-27T04:53:40.000Z'
+updated: '2024-09-27T15:36:15.000Z'
 questionTitle: 为什么人们在讲解卡尔曼滤波这个算法时写的都是离散型卡尔曼的算法呢？
 ---
 可以看看我写的文章，从另一种角度出发

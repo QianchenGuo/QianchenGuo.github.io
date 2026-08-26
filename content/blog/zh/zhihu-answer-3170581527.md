@@ -1,6 +1,6 @@
 ---
 title: 为什么作用，李雅普诺夫定理证明非线性系统稳定性要在微分方程有唯一解的前提下呢？
-date: '2023-08-14'
+date: '2023-08-17'
 excerpt: >-
   先给出微分方程动力系统的定义，以自治系统为例，其Cauchy问题x'＝f(x)，x(0)＝x0。有唯一解记为x(t，x0)，构造映射族
   φᵗ：x0∈Rⁿ→x(t，x0)∈Rⁿ 参数t∈R，由于解对初值连续依赖性φᵗ连续，由于解具有唯一性，所以φᵗ为双射，有逆φ⁻ᵗ。 此外可以证明φᵗ满足：
@@ -12,7 +12,7 @@ source: 'https://www.zhihu.com/question/617258529/answer/3170581527'
 sourceType: zhihu-answer
 zhihuId: '3170581527'
 translationStatus: source-only
-updated: '2023-08-14T12:15:13.000Z'
+updated: '2023-08-17T15:57:55.000Z'
 questionTitle: 为什么作用，李雅普诺夫定理证明非线性系统稳定性要在微分方程有唯一解的前提下呢？
 ---
 先给出微分方程动力系统的定义，以[自治系统](https://zhida.zhihu.com/search?content_id=606553320&content_type=Answer&match_order=1&q=%E8%87%AA%E6%B2%BB%E7%B3%BB%E7%BB%9F&zhida_source=entity)为例，其Cauchy问题x'＝f(x)，x(0)＝x0。有唯一解记为x(t，x0)，构造映射族

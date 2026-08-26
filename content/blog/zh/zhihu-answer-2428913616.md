@@ -11,7 +11,7 @@ source: 'https://www.zhihu.com/question/526673625/answer/2428913616'
 sourceType: zhihu-answer
 zhihuId: '2428913616'
 translationStatus: source-only
-updated: '2022-04-08T02:14:45.000Z'
+updated: '2022-04-08T02:24:37.000Z'
 questionTitle: 我们现在教材第一章是矩阵，其他都没学。这道题思想是什么啦？
 ---
 我猜题主这么说应该是害怕见到一些大谈高观点的大佬吧(笑)。

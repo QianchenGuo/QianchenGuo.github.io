@@ -1,6 +1,6 @@
 ---
 title: 重新学习数学分析，这样合适吗？
-date: '2022-06-14'
+date: '2022-08-17'
 excerpt: >-
   难不成还认为数学分析难道只学一次就够嘛？ 数学分析有许多地方是有更深的内容的，多学几次，尤其是结合后面的课程重读可以说是十分必要的。
   至于说你的方法合不合适，至少我认为要是有足够的时间精力去啃或者适应Zorich式的书的话，读Zorich是完全可以的，可是一般都没有这样的时间和精力。
@@ -12,7 +12,7 @@ source: 'https://www.zhihu.com/question/537711804/answer/2532846560'
 sourceType: zhihu-answer
 zhihuId: '2532846560'
 translationStatus: source-only
-updated: '2022-06-14T13:29:06.000Z'
+updated: '2022-08-17T20:01:07.000Z'
 questionTitle: 重新学习数学分析，这样合适吗？
 ---
 难不成还认为数学分析难道只学一次就够嘛？

@@ -1,6 +1,6 @@
 ---
 title: 矩阵A中所有r＋1阶子式全为0，那所有高于r＋1阶的子式也全为0，这是为什么呢？
-date: '2022-04-11'
+date: '2022-04-13'
 excerpt: >-
   用行列式按行(列)展开，所有高于r+1阶的子式，比如r+k阶的子式，都可以展开为r+k个r+k1阶子式。
   以此类推，对任意k∈N＊，r+k阶子式都可以被k次展开成数个r+1阶子式的线性组合。
@@ -12,7 +12,7 @@ source: 'https://www.zhihu.com/question/527296298/answer/2437011708'
 sourceType: zhihu-answer
 zhihuId: '2437011708'
 translationStatus: source-only
-updated: '2022-04-11T08:17:05.000Z'
+updated: '2022-04-13T02:27:17.000Z'
 questionTitle: 矩阵A中所有r＋1阶子式全为0，那所有高于r＋1阶的子式也全为0，这是为什么呢？
 ---
 用行列式按行(列)展开，所有高于r+1阶的子式，比如r+k阶的子式，都可以展开为r+k个r+k-1阶子式。

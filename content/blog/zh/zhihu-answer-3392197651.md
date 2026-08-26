@@ -1,6 +1,6 @@
 ---
 title: 隐函数组与参数方程之间有什么联系吗？它们的几何意义又都是什么？
-date: '2024-02-08'
+date: '2024-02-09'
 excerpt: >-
   隐函数组是更一般的概念，参数方程只是有一个参数来统一表示而已。
   联系就是我们可以看一组隐函数是否能参数化，即把一个参数显化出来。实际上这个问题也没必要去考虑别的，因为我们有隐函数定理，反函数定理乃至于秩定理这些工具。
@@ -12,7 +12,7 @@ source: 'https://www.zhihu.com/question/643546483/answer/3392197651'
 sourceType: zhihu-answer
 zhihuId: '3392197651'
 translationStatus: source-only
-updated: '2024-02-08T02:58:40.000Z'
+updated: '2024-02-09T15:02:05.000Z'
 questionTitle: 隐函数组与参数方程之间有什么联系吗？它们的几何意义又都是什么？
 ---
 [隐函数组](https://zhida.zhihu.com/search?content_id=646839822&content_type=Answer&match_order=1&q=%E9%9A%90%E5%87%BD%E6%95%B0%E7%BB%84&zhida_source=entity)是更一般的概念，参数方程只是有一个参数来统一表示而已。
