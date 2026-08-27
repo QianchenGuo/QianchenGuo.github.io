@@ -1,5 +1,6 @@
 import type { Lang } from '@/lib/site-data';
 import { copy } from '@/lib/site-data';
+import { LangSwitch } from './lang-switch';
 
 export function SiteShell({ lang, children }: { lang: Lang; children: React.ReactNode }) {
   const t = copy[lang];
@@ -9,7 +10,7 @@ export function SiteShell({ lang, children }: { lang: Lang; children: React.Reac
     <header className="topbar"><div className="shell topbar-inner">
       <a href={base} className="brand" aria-label="Qianchen Guo home"><span className="brand-mark" aria-hidden="true" /><span>QIANCHEN.GUO</span></a>
       <nav className="nav" aria-label="Primary navigation">
-        <a href={base}>{t.nav.home}</a><a href={`${base}/cv`}>{t.nav.cv}</a><a href={`${base}/research`}>{t.nav.research}</a><a href={`${base}/blog`}>{t.nav.blog}</a><a className="lang-switch" href={`/${alternate}`}>{t.switchLabel}</a>
+        <a href={base}>{t.nav.home}</a><a href={`${base}/cv`}>{t.nav.cv}</a><a href={`${base}/research`}>{t.nav.research}</a><a href={`${base}/blog`}>{t.nav.blog}</a><LangSwitch alternate={alternate} label={t.switchLabel} />
       </nav>
     </div></header>
     {children}

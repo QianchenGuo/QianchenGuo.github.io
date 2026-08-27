@@ -8,7 +8,7 @@ tags:
   - Zhihu Answer
 source: "https://www.zhihu.com/question/645494731/answer/3413468275"
 sourceType: zhihu-answer
-zhihuId: 3413468275
+zhihuId: '3413468275'
 translationStatus: translated
 updated: "2024-02-29T07:34:53.000Z"
 ---
