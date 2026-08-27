@@ -1,6 +1,6 @@
 ---
 title: Can One Learn Only the Essence of Mathematics?
-date: 2024-02-29
+date: '2024-02-29'
 excerpt: >-
   Personally, I believe it is feasible, albeit under certain conditions. Given a certain level of insight, having a good mentor can greatly accelerate the growth of one's mathematical maturity. In my vision, if someone can guide you in learning mathematics—not confining you to the textbook's storyline but encouraging you to ask questions, build frameworks, and trace motivations—then the mentor's answers to your questions will rapidly enhance your mathematical thinking and maturity. Of course, this largely depends on...
 tags:
@@ -10,7 +10,6 @@ source: "https://www.zhihu.com/question/645494731/answer/3413468275"
 sourceType: zhihu-answer
 zhihuId: '3413468275'
 translationStatus: translated
-updated: "2024-02-29T07:34:53.000Z"
 ---
 
 Personally, I think it's feasible, though it requires certain conditions. Given a certain level of insight, having a good mentor can greatly accelerate one's growth in mathematics.

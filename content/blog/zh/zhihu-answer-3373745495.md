@@ -11,7 +11,6 @@ source: 'https://www.zhihu.com/question/630028413/answer/3373745495'
 sourceType: zhihu-answer
 zhihuId: '3373745495'
 translationStatus: source-only
-updated: '2024-03-24T17:20:58.000Z'
 questionTitle: 做控制理论的学术研究，怎样才叫“数学好”"具有扎实的数学功底"？
 ---
 控制理论，实际上就是应用数学的一个分支。所以实际上搞控制理论都需要很多的数学，甚至可以说没有最好只有更好，数学是无止境的。所以做研究要懂得用什么补什么。

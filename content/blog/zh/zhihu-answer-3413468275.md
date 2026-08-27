@@ -12,7 +12,6 @@ source: 'https://www.zhihu.com/question/645494731/answer/3413468275'
 sourceType: zhihu-answer
 zhihuId: '3413468275'
 translationStatus: source-only
-updated: '2024-02-29T07:34:53.000Z'
 questionTitle: 可以只学数学的精华吗?
 ---
 个人觉得是可行的，不过需要一定的条件。在有一定悟性的前提下，有一位好的领路人带领会大大加快数学成长的速度。

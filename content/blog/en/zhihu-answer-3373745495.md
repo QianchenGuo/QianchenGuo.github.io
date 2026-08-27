@@ -1,6 +1,6 @@
 ---
 title: In Control Theory Research, What Does It Mean to Be 'Good at Math' or 'Have a Solid Mathematical Foundation'?
-date: 2024-03-24
+date: '2024-03-24'
 excerpt: >-
   Control theory is essentially a branch of applied mathematics. As such, conducting research in control theory requires a deep engagement with mathematics—there is no upper limit, only room for improvement. Therefore, researchers must learn to apply mathematical tools selectively. The following list of courses is provided, but in practice, control theory research does not require every detail from each course; rather, the problems it addresses primarily draw on only a portion of these topics. Moreover, control theory, as an application-oriented discipline with a strong analytical component, ...
 tags:
@@ -10,7 +10,6 @@ source: "https://www.zhihu.com/question/630028413/answer/3373745495"
 sourceType: zhihu-answer
 zhihuId: '3373745495'
 translationStatus: translated
-updated: "2024-03-24T17:20:58.000Z"
 ---
 
 In Control Theory Research, What Does It Mean to Be 'Good at Math' or 'Have a Solid Mathematical Foundation'?

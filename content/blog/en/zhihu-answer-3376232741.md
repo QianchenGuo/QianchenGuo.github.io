@@ -1,6 +1,6 @@
 ---
 title: If Two Topological Spaces Are Homeomorphic and One Is a Topological Manifold, Must the Other Be One Too? And If One Is a Smooth Manifold, Are They Necessarily Diffeomorphic?
-date: 2024-01-25
+date: '2024-01-25'
 excerpt: >-
   The answer to the first question is yes, because homeomorphisms preserve topological properties, so those topological aspects remain unchanged. For the second question, I suggest looking up Milnor's exotic spheres: they are homeomorphic to the seven-dimensional sphere S⁷, but admit a smooth structure that makes them not diffeomorphic. This provides a negative answer to your second question. Moreover, there are even infinitely many differential structures on four-dimensional Euclidean space. These two examples are almost certainly covered in the first few lectures of any differential geometry course.
 tags:
@@ -10,7 +10,6 @@ source: "https://www.zhihu.com/question/593264510/answer/3376232741"
 sourceType: zhihu-answer
 zhihuId: '3376232741'
 translationStatus: translated
-updated: "2024-01-25T17:01:16.000Z"
 ---
 
 The first question has an affirmative answer, because homeomorphisms preserve topological properties, so those topological invariants remain unchanged.

@@ -11,7 +11,6 @@ source: 'https://www.zhihu.com/question/593264510/answer/3376232741'
 sourceType: zhihu-answer
 zhihuId: '3376232741'
 translationStatus: source-only
-updated: '2024-01-25T17:01:16.000Z'
 questionTitle: 两个拓扑空间同胚，其中一个是拓扑流形，另一个也一定是吗？如果其中一个还是微分流形，他们必然微分同胚吗？
 ---
 第一个问题是肯定的，因为拓扑同胚保拓扑性质，那些拓扑的东西不变。

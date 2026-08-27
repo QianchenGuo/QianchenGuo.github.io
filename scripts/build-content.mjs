@@ -4,6 +4,15 @@ import matter from 'gray-matter';
 
 const root = path.join(process.cwd(),'content','blog');
 const posts = [];
+
+function toDateString(value) {
+  const text = String(value ?? '');
+  const match = text.match(/\d{4}-\d{2}-\d{2}/);
+  if (match) return match[0];
+  if (value instanceof Date && !Number.isNaN(value.getTime())) return value.toISOString().slice(0, 10);
+  return text;
+}
+
 for (const lang of ['zh','en']) {
   const dir = path.join(root,lang);
   if (!fs.existsSync(dir)) continue;
@@ -13,7 +22,7 @@ for (const lang of ['zh','en']) {
     posts.push({
       slug, lang,
       title: String(parsed.data.title ?? slug),
-      date: String(parsed.data.date ?? ''),
+      date: toDateString(parsed.data.date),
       excerpt: String(parsed.data.excerpt ?? ''),
       tags: Array.isArray(parsed.data.tags) ? parsed.data.tags.map(String) : [],
       source: parsed.data.source ? String(parsed.data.source) : undefined,

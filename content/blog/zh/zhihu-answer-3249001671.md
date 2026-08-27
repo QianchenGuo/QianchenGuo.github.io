@@ -12,7 +12,6 @@ source: 'https://www.zhihu.com/question/615002400/answer/3249001671'
 sourceType: zhihu-answer
 zhihuId: '3249001671'
 translationStatus: source-only
-updated: '2023-10-13T17:30:19.000Z'
 questionTitle: 从分析角度看，紧集这一定义的数学动机是什么？
 ---
 虽然不知道历史上紧集的动机，但是还是按照我的想法写一点吧。

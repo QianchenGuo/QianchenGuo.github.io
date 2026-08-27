@@ -1,6 +1,6 @@
 ---
 title: "Decision Making and Motion Planning for Mobile Agents: The Rising Sea"
-date: "2026-05-04"
+date: '2026-05-04'
 excerpt: "A structured map connecting predictive and feedback control, optimal control, numerical methods, and real-time approximation."
 tags: ["Motion Planning", "Optimal Control", "MPC", "Robotics"]
 source: "https://zhuanlan.zhihu.com/p/1922973164197122321"

@@ -1,6 +1,6 @@
 ---
 title: What Kind of Textbook Is Jean Dieudonné's Foundations of Modern Analysis?
-date: 2023-03-14
+date: '2023-03-14'
 excerpt: >-
   Compiled from the following answers, with credit to the original authors. What are some recommended textbooks or reference books for mathematical analysis? 2,642 upvotes · 189 comments. Answer: Mathematical Analysis Books, 33 upvotes · 9 comments. Article: https://www.zhihu.com/answer/2736855108. Between 1880 and 1920, many masterpieces of modern analysis textbooks were published in English, French, and German, including Whittaker's Modern Analysis.
 tags:
@@ -10,7 +10,6 @@ source: "https://www.zhihu.com/question/429604942/answer/2434287998"
 sourceType: zhihu-answer
 zhihuId: '2434287998'
 translationStatus: translated
-updated: "2023-03-14T07:00:43.000Z"
 ---
 
 Compiled from the references below; if any infringement, please delete.

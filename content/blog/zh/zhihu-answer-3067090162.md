@@ -11,7 +11,6 @@ source: 'https://www.zhihu.com/question/605166434/answer/3067090162'
 sourceType: zhihu-answer
 zhihuId: '3067090162'
 translationStatus: source-only
-updated: '2023-06-10T01:11:41.000Z'
 questionTitle: 如何评价丘成桐说要想成为像高斯、欧拉那样的大数学家，首先要提出自己的问题，走出一条自己的路?
 ---
 因为创新是发展的源泉。

@@ -12,7 +12,6 @@ source: 'https://www.zhihu.com/question/429604942/answer/2434287998'
 sourceType: zhihu-answer
 zhihuId: '2434287998'
 translationStatus: source-only
-updated: '2023-03-14T07:00:43.000Z'
 questionTitle: Jean Dieudonne（迪厄多内/丢多涅）的《现代分析基础》是一本什么样的教材？
 ---
 参考如下回答整合而成，侵删

@@ -1,6 +1,6 @@
 ---
 title: Can any mathematician recommend a more comprehensive textbook than the 7th edition of Advanced Mathematics compiled by the Department of Mathematics at Tongji University?
-date: 2023-04-22
+date: '2023-04-22'
 excerpt: >-
   To start with the conclusion, this question is essentially meaningless because it lacks a clear purpose orientation. First, judging by the description of the Tongji 7th edition in the question, the asker is certainly not a mathematics major. This directly determines that you most likely won't care about the mathematical analysis textbooks used in math departments. Second, the question pursues "comprehensiveness." The word "comprehensive" is ambiguous without a purpose as a guide. In other words, there are three possible cases. If your purpose...
 tags:
@@ -10,7 +10,6 @@ source: "https://www.zhihu.com/question/531565281/answer/2472536845"
 sourceType: zhihu-answer
 zhihuId: '2472536845'
 translationStatus: translated
-updated: "2023-04-22T15:16:08.000Z"
 ---
 
 Let me start with the conclusion: this question is essentially meaningless, because it lacks a clear sense of purpose.

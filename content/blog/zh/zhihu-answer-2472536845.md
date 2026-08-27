@@ -12,7 +12,6 @@ source: 'https://www.zhihu.com/question/531565281/answer/2472536845'
 sourceType: zhihu-answer
 zhihuId: '2472536845'
 translationStatus: source-only
-updated: '2023-04-22T15:16:08.000Z'
 questionTitle: 哪位数学人可以给我推荐一本比同济大学数学系编的第七版高等数学更全面的教材？
 ---
 先说结论，这个问题实际上没有任何意义，因为问题中没有明确的目的导向。

@@ -1,6 +1,6 @@
 ---
 title: From an Analytical Perspective, What Is the Mathematical Motivation Behind the Definition of Compact Sets?
-date: 2023-10-13
+date: '2023-10-13'
 excerpt: >-
   Although I don't know the historical motivation behind compact sets, I'll write a bit based on my own thoughts. Since the further development of calculus into analysis, the infinite has been studied by people. And studying the infinite is by no means vague or pseudoscientific. Turning the infinite into the finite is one approach, and compactness is precisely the property in set theory that reduces the infinite to the finite. The most important finite subcover property of compact sets gives us a tool to study infinite sets: when there are infinitely many elements, we can extract finitely many of them...
 tags:
@@ -10,7 +10,6 @@ source: "https://www.zhihu.com/question/615002400/answer/3249001671"
 sourceType: zhihu-answer
 zhihuId: '3249001671'
 translationStatus: translated
-updated: "2023-10-13T17:30:19.000Z"
 ---
 
 Although I don't know the historical motivation behind compact sets, let me write a bit according to my own thoughts.
